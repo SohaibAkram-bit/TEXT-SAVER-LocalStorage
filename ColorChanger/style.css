@@ -1,0 +1,57 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  height: 100vh;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container */
+.container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Input Field */
+.inp {
+  width: 250px;
+  padding: 12px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  transition: color 0.3s, background-color 0.3s;
+  
+}
+
+/* Buttons */
+button {
+  display: block;
+  width: 250px;
+  margin: 10px auto;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
